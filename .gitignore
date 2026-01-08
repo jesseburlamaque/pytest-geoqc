@@ -1,0 +1,7 @@
+# Ambiente Virtual
+.venv/
+venv/
+ENV/
+
+# Pasta de Dados
+data/
