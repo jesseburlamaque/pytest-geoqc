@@ -3,5 +3,11 @@
 venv/
 ENV/
 
+# Python
+__pycache__/
+*.py[cod]
+
 # Pasta de Dados
 data/
+
+!.gitignore
