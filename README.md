@@ -15,7 +15,8 @@ This repository demonstrates Test-Driven Development (TDD) applied to geospatial
 "99% geom OK"           -> test_geoms()      is_valid_geometry     Coverage 100%
 ```
 
-## Validações
+## Validations
+
 
 ```python
 # 1. Correct CRS (WGS84 standard)
@@ -34,12 +35,12 @@ assert null_geoms == 0               # No empty geometries
 
 ```text
 pytest-geoqc/
-src/pytest_geoqc/core.py     # QC logic
-├── tests/test_core.py           # pytest tests
-├── data/                        # Natural Earth shapefiles
-├── scripts/                     # verify_data.py
-├── pyproject.toml               # pytest config
-└── requirements.txt
+    src/pytest_geoqc/core.py     # QC logic
+    tests/test_core.py           # pytest tests
+    data/                        # Natural Earth shapefiles
+    scripts/                     # verify_data.py
+    pyproject.toml               # pytest config
+    requirements.txt
 ```
 
 ## Features
